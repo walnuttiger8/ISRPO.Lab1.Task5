@@ -5,6 +5,9 @@ class Button:
     def __str__(self):
         return f"<Button {self._name}>"
 
+    def click(self):
+        print(f"button {self._name} click!")
+
 
 class Window:
 
